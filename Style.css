@@ -57,6 +57,12 @@
     height: 30vh;
     cursor: pointer;
    }
+   .p1{
+    margin-left: 31.5rem; 
+    font-size:1.2rem; 
+    color:  rgb(55, 135, 108);
+           
+   }
 
    .border2{
     margin-top: 1rem;
@@ -73,6 +79,54 @@
   .bottom{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+  @media screen and (max-width:800px) {
+    .container{
+      text-align: center;
+      justify-content: center;
+      margin-top: 2px;
+      
+    }
+    
+    p{
+      font-size: larger;
+    }
+    .border{
+       border-radius: 2px;
+    border: 2px solid lightgrey;
+    margin-left: 7.5rem;
+    width: 68%;
+    height: 15vh;
+   
+    }
+    .border1{
+       border-radius: 2px;
+      border: 2px solid lightgrey;
+      margin-left: 7.5rem;
+      width: 68%;
+      height: 30vh;
+     
+      }
+      .border2{
+       border-radius: 2px;
+        border: 2px solid lightgrey;
+        margin-left: 7.5rem;
+        width: 68%;
+        height: 15vh;
+       
+        }
+        
+        .bottom{
+          margin-left: -23rem;
+        }
+        .bottom1{
+          margin-right: -25rem;
+        }
+        
+        
+    
+  }
+  
+  
   
 
 
